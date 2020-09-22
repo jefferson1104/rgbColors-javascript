@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+background: #2E3337;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #53C7A4;
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+p {
+  color: #53C7A4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.change-color {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  align-content: center;  
+}
+
+.colors-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#result {
+  height: 250px;
+  width: 250px;
+  border: #53C7A4 solid 1px;
+}
+
+.color-R {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: #da373d;
+}
+
+
+.color-G {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  color: #53C7A4;
+}
+
+
+.color-B {
+  display: flex;
+  flex-direction: column;
+  color: #29ADEF;
+}
+

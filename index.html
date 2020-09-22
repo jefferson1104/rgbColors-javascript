@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">  
+  <title>Trabalho Pratico 01 Bootcamp IGTI</title>
+</head>
+<body>
+  <h1>Change Color</h1>
+  <p>drag the progress bar of each color to make an RGB combination</p>
+  
+  <div class="change-color">
+    <div id="result"></div>
+        
+    <div class="colors-settings">      
+      <div class="color-R">
+        <label> (R) Red </label>
+        <input type="range" min="1" max="255" id="inputR">
+        <input type="text"disabled>
+      </div>
+  
+      <div class="color-G">
+        <label> (G) Green </label>
+        <input type="range" min="1" max="255" id="inputG">
+        <input type="text"disabled>
+      </div>
+  
+      <div class="color-B">
+        <label> (B) Blue </label>
+        <input type="range" min="1" max="255" id="inputB">
+        <input type="text"disabled>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
