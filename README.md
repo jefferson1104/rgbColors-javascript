@@ -32,3 +32,11 @@
     <img alt="Javascript" src="https://img.shields.io/static/v1?color=yellow&label=javascript&message=JS&%3Fstyle=plastic&logo=javascript">
   </a>
 </p>
+
+## 💻 Projeto
+
+CHANGE COLOR - A small project with functionality to easily bring a color search using the RGB pattern, the purpose of this project is to train fundamentals of javascript, such as functions, repetition structures, DOM manipulation and events.
+
+<h3 align="center">
+    <img alt="Change color using Javascript" title="Change color Javascript" src="Screeshot.png" width="500px" />
+</h3>
